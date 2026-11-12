@@ -3,7 +3,7 @@ import { Cpu, Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const GITHUB_URL = 'https://github.com/adarshdileep';
-  const LINKEDIN_URL = 'https://linkedin.com/in/adarshdileep';
+  const LINKEDIN_URL = 'https://linkedin.com/in/adarshodileep';
   const EMAIL = 'adarshodileep@gmail.com';
 
   const scrollToTop = () => {

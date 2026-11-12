@@ -7,7 +7,7 @@ export const ContactSection: React.FC = () => {
   // Editable configurations
   const EMAIL = 'adarshodileep@gmail.com';
   const GITHUB_URL = 'https://github.com/adarshdileep';
-  const LINKEDIN_URL = 'https://linkedin.com/in/adarshdileep';
+  const LINKEDIN_URL = 'https://linkedin.com/in/adarshodileep';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(EMAIL);

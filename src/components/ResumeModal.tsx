@@ -17,7 +17,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 Senior Mobile Software Engineer | React Native Specialist
 Email: adarshodileep@gmail.com
 GitHub: https://github.com/adarshdileep
-LinkedIn: https://linkedin.com/in/adarshdileep
+LinkedIn: https://linkedin.com/in/adarshodileep
 
 PROFESSIONAL SUMMARY:
 Software engineer specializing in React Native mobile application development, with experience building and maintaining production-level mobile applications. I also work with React.js for web development and have knowledge of PHP backend technologies.

@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
 
   // Editable profile links
   const GITHUB_URL = 'https://github.com/adarshdileep';
-  const LINKEDIN_URL = 'https://linkedin.com/in/adarshdileep';
+  const LINKEDIN_URL = 'https://linkedin.com/in/adarshodileep';
 
   const scrollToSection = (id: string) => {
     setMobileMenuOpen(false);
