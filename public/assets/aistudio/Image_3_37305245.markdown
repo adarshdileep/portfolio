@@ -1,0 +1,231 @@
+---
+name: Obsidian Kinetic
+colors:
+  surface: '#10131b'
+  surface-dim: '#10131b'
+  surface-bright: '#363941'
+  surface-container-lowest: '#0b0e15'
+  surface-container-low: '#181b23'
+  surface-container: '#1d2027'
+  surface-container-high: '#272a32'
+  surface-container-highest: '#32353d'
+  on-surface: '#e0e2ed'
+  on-surface-variant: '#c1cab5'
+  inverse-surface: '#e0e2ed'
+  inverse-on-surface: '#2d3038'
+  outline: '#8b9481'
+  outline-variant: '#41493a'
+  surface-tint: '#91d963'
+  primary: '#d0ffad'
+  on-primary: '#153800'
+  primary-container: '#9fe870'
+  on-primary-container: '#2e6900'
+  inverse-primary: '#2f6c00'
+  secondary: '#68d9c8'
+  on-secondary: '#003731'
+  secondary-container: '#23a292'
+  on-secondary-container: '#00302a'
+  tertiary: '#ffeee1'
+  on-tertiary: '#492900'
+  tertiary-container: '#ffcb97'
+  on-tertiary-container: '#845009'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#acf67c'
+  primary-fixed-dim: '#91d963'
+  on-primary-fixed: '#092100'
+  on-primary-fixed-variant: '#225100'
+  secondary-fixed: '#86f6e4'
+  secondary-fixed-dim: '#68d9c8'
+  on-secondary-fixed: '#00201c'
+  on-secondary-fixed-variant: '#005048'
+  tertiary-fixed: '#ffdcbc'
+  tertiary-fixed-dim: '#ffb86c'
+  on-tertiary-fixed: '#2c1600'
+  on-tertiary-fixed-variant: '#683c00'
+  background: '#10131b'
+  on-background: '#e0e2ed'
+  surface-variant: '#32353d'
+typography:
+  display-xl:
+    fontFamily: Space Grotesk
+    fontSize: 72px
+    fontWeight: '700'
+    lineHeight: 76px
+    letterSpacing: -0.04em
+  display-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 54px
+    letterSpacing: -0.03em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  code-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+  code-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  label-caps:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.12em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system channels an avant-garde editorial atmosphere fused with the precision of a high-performance developer cockpit. Tailored specifically for showcasing mobile architecture, high-frequency React Native engineering, and creative code, the aesthetic reflects ruthless technical competence alongside bespoke editorial restraint.
+
+The visual direction combines Dark Minimalist Editorial and Technical Glassmorphism:
+- **Atmosphere:** Deep void spaces, architectural rhythm, and surgical grid-lines evoking late-night compiler sessions and high-end typography publications.
+- **Audience:** Engineering leads, product founders, design-forward tech companies, and tier-one recruiters demanding uncompromising design execution and robust mobile systems architecture.
+- **Emotional Intent:** Imparts instantaneous authority, intellectual rigor, hyper-competence, and kinetic energy through neon-charged accents against deep obsidian grounds.
+
+## Colors
+
+The palette operates on high-contrast nocturnal values where bright bioluminescent accents punch through deep layered voids.
+
+- **Primary Canvas (Dark Void - `#080B12`):** Ground-level substrate across the entire viewport.
+- **Elevated Surfaces:** 
+  - `Secondary Surface (#111827)`: Modular card panels, dashboards, and code container backgrounds.
+  - `Tertiary Surface (#1A2234)`: Flyouts, terminal headers, elevated pill badges, and active toggle backgrounds.
+- **Structural Lines (`#273244`):** Micro-borders, precision crosshairs, and Cartesian background grids calibrated to provide subtle structure without visual weight.
+- **Accent Kinetics:**
+  - `Lime Neon (#9FE870)`: Main interactive affordances, core CTA elements, status badges for production readiness, and active tab indicators.
+  - `Cyan Neon (#65D6C5)`: Metric callouts, architecture flow lines, secondary interactive states, and mobile viewport wireframe accents.
+  - `Code Amber (#FFB86C)`: Syntax tokens, warning triggers, benchmark tags, and build-time metrics.
+  - `Error Crimson (#FF5555)`: Fault states, telemetry error simulations, and critical test suite badges.
+- **Content Hierarchy:**
+  - `Primary Text (#F5F7FA)`: Headings, vital code lines, and active values.
+  - `Secondary Text (#A1AAB8)`: Body descriptions, metadata timestamps, and architectural documentation.
+
+## Typography
+
+The type system balances technical rigor with editorial scale:
+
+- **Display & Headings (Space Grotesk):** Tight tracking, high geometric posture, and distinctive ink-traps. Used to deliver striking statements, project titles, and section anchors.
+- **Narrative & Body (Inter):** Highly legible neutral grotesque used for case studies, bio summaries, and deep technical writing.
+- **Telemetry, Badges & Code (JetBrains Mono):** Monospaced precision for technical metadata, benchmark counters, React Native performance metrics (60 FPS, JSI bridges), command line arguments, and terminal labels.
+- Set uppercase labels (`label-caps`) with explicit tracking (`letterSpacing: 0.12em`) to echo mechanical schematic readouts.
+
+## Layout & Spacing
+
+The foundation is built on an architectural 12-column responsive fluid grid complemented by an optional background sub-grid (24px by 24px) rendered with `#273244` at 30% opacity.
+
+- **Desktop (>= 1200px):** 12 columns, `1.5rem` (24px) gutters, `2rem` (32px) screen edge margins. Max content container is capped at 1440px to retain editorial tension.
+- **Tablet (768px - 1199px):** 8 columns, `1.25rem` gutters, `1.5rem` margins.
+- **Mobile (< 768px):** 4 columns, `1rem` (16px) gutters, `1rem` (16px) margins. Dynamic reflow translates multi-column architecture graphs into vertical stack traces.
+- Spacing cadence adheres strictly to the 4px/8px mathematical scale to align monospace code lines seamlessly with surrounding components.
+
+## Elevation & Depth
+
+Visual hierarchy uses luminous depth instead of classical drop shadows:
+
+- **Substrate (Level 0):** `#080B12` base canvas with 1px structural grid lines.
+- **Glass Panel (Level 1):** `#111827` rendered at 70% alpha with a `12px` backdrop blur (`backdrop-filter: blur(12px)`) and a `1px` continuous border in `#273244`.
+- **Raised Module / Terminal Floating Window (Level 2):** `#1A2234` rendered at 85% alpha with a `16px` backdrop blur, encircled by a `#273244` border with a subtle top edge highlight in `#65D6C5` at 20% alpha.
+- **Active Glow Elevation (Level 3):** Focused cards, interactive device frames, and primary nodes project an ambient neon bloom: `box-shadow: 0 0 25px -5px rgba(159, 232, 112, 0.18)`.
+- Shadows are never opaque black; they are diffused void tints: `box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.6)`.
+
+## Shapes
+
+The shape system adopts a controlled **Soft (Level 1)** curvature to sustain an engineered, instrument-panel aesthetic:
+
+- **Base Radius (0.25rem / 4px):** Used on terminal chips, status badges, tech stack pills, and input controls.
+- **Container Radius (`rounded-lg` - 0.5rem / 8px):** Used on interactive case study cards, code blocks, and dashboard widgets.
+- **Overlay Radius (`rounded-xl` - 0.75rem / 12px):** Reserved for modal overlays, mobile device preview viewports, and floating dock bars.
+- Corner geometry avoids bubble-like curvature, reinforcing a clean, hardware-grade feel.
+
+## Components
+
+### Buttons
+- **Primary Kinetic:** Background `#9FE870`, text `#080B12`, font `JetBrains Mono` 13px weight 600, uppercase. Padding: `10px 20px`. Hover: `box-shadow: 0 0 20px rgba(159, 232, 112, 0.4)`. Transitions are rapid: `150ms ease-out`.
+- **Secondary Terminal:** Transparent background, border `1px solid #273244`, text `#F5F7FA`. Hover: border transitions to `#65D6C5`, text transitions to `#65D6C5`, background gains `rgba(101, 214, 197, 0.05)`.
+- **Icon Utility:** Square dimension (40px x 40px), surface `#111827`, border `1px solid #273244`, icon `#A1AAB8`. Hover brings icon to `#9FE870`.
+
+### Chips & Terminal Badges
+- **Status Indicators:** Background `#111827`, border `1px solid #273244`, text `#A1AAB8`, font `code-sm`. Prefixed with a live blinking LED indicator (e.g., 6px circle with `#9FE870` pulsing animation for "Available for Architecture Audits").
+- **Tech Stack Tokens:** Monospaced micro-chips with faint `#1A2234` backgrounds and subtle borders, displaying parameters such as `Fabric Engine`, `Turbomodules`, and `Skia`.
+
+### Cards & Project Showcases
+- **Editorial Project Card:** Grounded on `#111827` with 70% opacity and `1px` border of `#273244`. Header displays date metadata and terminal category in `label-caps`. Hover triggers a top border accent illumination in `#9FE870`.
+- **Mobile Preview Stage:** A simulated mobile screen frame with an 8px radius, bezel-tinted with `#1A2234`, presenting live embedded micro-interactions or optimized video captures.
+
+### Lists & Activity Logs
+- **Commit / Architecture Log:** Clean horizontal rows partitioned by `1px solid #273244`. Left column carries monospaced timestamps in `#A1AAB8`, middle column holds the feature headline in `Space Grotesk`, right column displays performance gains (e.g., `+58 FPS`, `-32% TTI`) rendered in `#65D6C5`.
+
+### Input Fields & Terminal Console
+- **Interactive Console Input:** Surface `#080B12`, inset `1px solid #273244`, text `#F5F7FA`, caret `#9FE870`. Prefixed with `> adarsh.tech ~ $`. Focused state illuminates the border to `#65D6C5` with a faint `2px` cyan outer aura.
+
+### Code Display Panels
+- **Code Block:** Surface `#080B12`, header bar with Mac-style or terminal window dots (`#FF5555`, `#FFB86C`, `#9FE870` at 6px diameter). Line numbers colored in `#273244`, variable keywords in `#65D6C5`, functions in `#9FE870`, strings in `#FFB86C`.
